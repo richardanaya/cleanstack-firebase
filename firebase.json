@@ -1,9 +1,15 @@
 {
   "firebase": "cleanstack",
-  "public": "static",
+  "public": ".",
   "ignore": [
     "firebase.json",
-    "**/.*",
+    "configs",
+    ".gitignore",
+    ".git",
+    "LICENSE.md",
+    "package.json",
+    "README.md",
+    "src",
     "**/node_modules/**"
   ],
   "rewrites": [ {
